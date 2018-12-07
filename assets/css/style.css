@@ -38,9 +38,9 @@ div#intro ul {
 /* #title {
   grid-column: 1 / 6;
   grid-row: 1;
-} */ */
+}  */
 
-/* #datacollectionimg {
+#datacollectionimg {
   grid-column: 2 / 6;
   grid-row: 2 / 3;
 }
@@ -63,4 +63,4 @@ div#intro ul {
 #explainedvideoinfo {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
-} */
+}
