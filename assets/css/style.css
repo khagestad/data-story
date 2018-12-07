@@ -1,0 +1,66 @@
+html {
+  background-color: #D8BFD8;
+}
+<link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif" rel="stylesheet">
+p {
+  font-size: 16px;
+  font-family: "Bitter", Serif;
+}
+h1,
+h2 {
+  font-family:"Noto Serif", Serif;
+  color: #625B5B;
+}
+/* GRID STYLES */
+main#gridwrap {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-template-rows: 50px 100px 200px 300px 200px 100px; */
+}
+main#gridwrap img {
+}
+
+/* INTRO STYLES */
+#intro {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+#introimg {
+  grid-column: 3 / 6;
+  grid-row: 1 / 2;
+}
+div#intro ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+/* #title {
+  grid-column: 1 / 6;
+  grid-row: 1;
+} */ */
+
+/* #datacollectionimg {
+  grid-column: 2 / 6;
+  grid-row: 2 / 3;
+}
+#datacollectioninfo {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+#dataviz {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+}
+#datavizimg {
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
+}
+#explainedvid {
+  grid-column: 2 / 6;
+  grid-row: 4 / 5;
+}
+#explainedvideoinfo {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+} */
