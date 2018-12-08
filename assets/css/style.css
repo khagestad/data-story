@@ -7,7 +7,7 @@ p {
 }
 h1,
 h2 {
-  font-family: fantasy;
+  font-family: ;
   color: #625B5B;
 }
 /* GRID STYLES */
@@ -16,7 +16,8 @@ main#gridwrap {
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
   /* grid-template-rows: 50px 100px 200px 300px 200px 100px; */
 }
-main#gridwrap img {
+main#datacollectionimg img {
+  
 }
 
 /* INTRO STYLES */
@@ -38,7 +39,7 @@ div ul {
   grid-row: 1;
 }  */
 
-#datacollectionimg { 
+#datacollectionimg {
   grid-column: 2 / 6;
   grid-row: 2 / 3;
 }
