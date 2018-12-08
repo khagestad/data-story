@@ -5,6 +5,9 @@ p {
   font-size: 16px;
   font-family: ;
 }
+h1 {
+  font-size: 40px;
+}
 h1,
 h2 {
   font-family: ;
@@ -16,17 +19,13 @@ main#gridwrap {
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
   /* grid-template-rows: 50px 100px 200px 300px 200px 100px; */
 }
-main#datacollectionimg img {
-  
+#datacollectionimg img {
+width: 100%;
 }
 
 /* INTRO STYLES */
 #intro {
   grid-column: 1 / 3;
-  grid-row: 1 / 2;
-}
-#introimg {
-  grid-column: 3 / 6;
   grid-row: 1 / 2;
 }
 div ul {
