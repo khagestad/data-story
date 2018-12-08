@@ -1,14 +1,13 @@
 html {
   background-color: #D8BFD8;
 }
-<link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif" rel="stylesheet">
 p {
   font-size: 16px;
-  font-family: "Bitter", Serif;
+  font-family: cursive;
 }
 h1,
 h2 {
-  font-family:"Noto Serif", Serif;
+  font-family: fantasy;
   color: #625B5B;
 }
 /* GRID STYLES */
