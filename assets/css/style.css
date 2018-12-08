@@ -3,7 +3,7 @@ html {
 }
 p {
   font-size: 16px;
-  font-family: cursive;
+  font-family: ;
 }
 h1,
 h2 {
@@ -28,8 +28,7 @@ main#gridwrap img {
   grid-column: 3 / 6;
   grid-row: 1 / 2;
 }
-div#intro ul {
-  display: flex;
+div ul {
   justify-content: space-between;
   list-style-type: none;
 }
@@ -39,7 +38,7 @@ div#intro ul {
   grid-row: 1;
 }  */
 
-#datacollectionimg {
+#datacollectionimg { 
   grid-column: 2 / 6;
   grid-row: 2 / 3;
 }
