@@ -3,16 +3,16 @@ html {
 }
 p {
   font-size: 16px;
-  font-family: ;
-  color: #483D8B;
+  font-family: "Bitter", Serif;
+  color: #4B0082;
 }
 h1 {
   font-size: 40px;
 }
 h1,
 h2 {
-  font-family: ;
-  color: #625B5B;
+  font-family: "Noto-Serif", Serif;
+  color: #413D3D;
 }
 /* GRID STYLES */
 main#gridwrap {
@@ -33,12 +33,6 @@ div ul {
   justify-content: space-between;
   list-style-type: none;
 }
-
-/* #title {
-  grid-column: 1 / 6;
-  grid-row: 1;
-}  */
-
 #datacollectionimg {
   grid-column: 2 / 6;
   grid-row: 2 / 3;
