@@ -34,8 +34,15 @@ width: 100%;
   grid-row: 1 / 2;
 }
 div ul {
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+  text-align: center;
+}
+div ul li {
+  display: inline;
+  text-decoration: none;
+
 }
 /* data collection styles */
 #datacollection {
