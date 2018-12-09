@@ -17,6 +17,9 @@ h2 {
   font-family: "Noto-Serif", Serif;
   color: #413D3D;
 }
+header p {
+  font-size: 25px;
+}
 /* GRID STYLES */
 main#gridwrap {
   display: grid;
